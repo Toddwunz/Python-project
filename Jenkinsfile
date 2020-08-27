@@ -1,6 +1,6 @@
 node('master') {
     stage("Fetch Source Code") {
-        git 'https://'https://github.com/Toddwunz/Python-project.git
+        git 'https://github.com/Toddwunz/Python-project.git'
     }
         printMessage('Running Pipeline')
         stage("Testing") {
