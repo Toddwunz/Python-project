@@ -3,7 +3,7 @@ class Student(object):
         self.name = name
         self.score = score
     def get_grade(self):
-        if not (1 <= self.score <= 100):
+        if not (0 <= self.score <= 100):
             raise ValueError('input score must between 0 and 100')
         if self.score >= 80:
             return 'A'
